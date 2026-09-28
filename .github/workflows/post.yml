@@ -1,0 +1,61 @@
+name: Threads予約投稿
+
+# 起動のきっかけ：ダッシュボードが予約（queue.json）をpushしたとき／手動／前の実行からの引き継ぎ。
+# 起動した実行は、次の予約時刻まで待って投稿するのを繰り返す（最長約5時間40分。予約が残っていれば次を起動して引き継ぐ）。
+# GitHubの定期起動(schedule)は遅延・不発があるため保険としてだけ置く。
+on:
+  push:
+    branches: [main]
+    paths: [queue.json]
+  schedule:
+    - cron: '23 * * * *'
+  workflow_dispatch:
+    inputs:
+      check:
+        description: '投稿せず、接続（本人ID）だけ確認する'
+        type: boolean
+        default: false
+      dry:
+        description: '投稿も記録もせず、流れだけ確かめる（テスト用）'
+        type: boolean
+        default: false
+      chain:
+        description: '予約が残っていれば次の実行を起動して引き継ぐ'
+        type: boolean
+        default: true
+      minutes:
+        description: '1回の実行で待つ最長の分数'
+        type: string
+        default: '340'
+
+permissions:
+  contents: write
+  actions: write
+
+# 同時に動くのは1つだけ。後から来た起動は待機し、待機は最新の1つに置き換わる
+concurrency:
+  group: threads-post
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: 予約時刻に投稿する
+        env:
+          THREADS_TOKEN_KIMURA: ${{ secrets.THREADS_TOKEN_KIMURA }}
+          THREADS_TOKEN_OFFICIAL: ${{ secrets.THREADS_TOKEN_OFFICIAL }}
+          QUEUE_KEY: ${{ secrets.QUEUE_KEY }}
+          GH_TOKEN: ${{ github.token }}
+          DRY_RUN: ${{ inputs.dry == true && '1' || '0' }}
+          CHAIN: ${{ github.event_name == 'workflow_dispatch' && inputs.chain == false && 'false' || 'true' }}
+          LOOP_MINUTES: ${{ inputs.minutes || '340' }}
+        run: |
+          git config user.name "threads-auto-poster"
+          git config user.email "threads-auto-poster@users.noreply.github.com"
+          if [ "${{ inputs.check }}" = "true" ]; then node poster.mjs --check; else node poster.mjs --loop; fi
