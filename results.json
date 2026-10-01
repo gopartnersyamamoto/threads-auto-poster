@@ -158,7 +158,12 @@
     "reply_error": "自分へのコメントを付けられませんでした：Threadsからエラー: An unknown error occurred"
   },
   "post_muoa3bg2d03291": {
-    "status": "posting",
-    "at": "2026-10-01T09:12:38.116Z"
+    "status": "posted",
+    "at": "2026-10-01T09:13:14.643Z",
+    "posted_at": "2026-10-01T09:13:14.643Z",
+    "threads_id": "17902442076361686",
+    "permalink": "https://www.threads.com/@kimura100en/post/Dd8j1PQmzS7",
+    "reply_id": null,
+    "reply_error": null
   }
 }
