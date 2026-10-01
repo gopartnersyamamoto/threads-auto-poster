@@ -30,5 +30,9 @@
     "status": "failed",
     "at": "2026-10-01T00:09:02.121Z",
     "error": "Threadsからエラー: API access blocked."
+  },
+  "post_muotmxck47ad82": {
+    "status": "posting",
+    "at": "2026-10-01T01:04:00.297Z"
   }
 }
