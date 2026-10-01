@@ -32,7 +32,12 @@
     "error": "Threadsからエラー: API access blocked."
   },
   "post_muotmxck47ad82": {
-    "status": "posting",
-    "at": "2026-10-01T01:04:00.297Z"
+    "status": "posted",
+    "at": "2026-10-01T01:04:42.393Z",
+    "posted_at": "2026-10-01T01:04:42.393Z",
+    "threads_id": "18476645758116548",
+    "permalink": "https://www.threads.com/@kimura100en/post/Dd7r6hRG3aQ",
+    "reply_id": null,
+    "reply_error": null
   }
 }
