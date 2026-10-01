@@ -27,7 +27,8 @@
     "reply_error": null
   },
   "post_muoa3bg1e03fb0": {
-    "status": "posting",
-    "at": "2026-10-01T00:09:00.301Z"
+    "status": "failed",
+    "at": "2026-10-01T00:09:02.121Z",
+    "error": "Threadsからエラー: API access blocked."
   }
 }
