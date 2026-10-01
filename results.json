@@ -149,7 +149,12 @@
     "reply_error": null
   },
   "post_muoa1l5jb7f945": {
-    "status": "posting",
-    "at": "2026-10-01T09:12:00.376Z"
+    "status": "posted",
+    "at": "2026-10-01T09:12:36.650Z",
+    "posted_at": "2026-10-01T09:12:36.650Z",
+    "threads_id": "18100975193616863",
+    "permalink": "https://www.threads.com/@100apokakutoku/post/Dd8jwrBG0GE",
+    "reply_id": null,
+    "reply_error": "自分へのコメントを付けられませんでした：Threadsからエラー: An unknown error occurred"
   }
 }
