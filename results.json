@@ -248,7 +248,12 @@
     "reply_error": null
   },
   "post_mupim0nod6bb43": {
-    "status": "posting",
-    "at": "2026-10-02T11:08:00.296Z"
+    "status": "posted",
+    "at": "2026-10-02T11:08:37.243Z",
+    "posted_at": "2026-10-02T11:08:37.243Z",
+    "threads_id": "18110092673330871",
+    "permalink": "https://www.threads.com/@100apokakutoku/post/Dd_V1Lqm4I2",
+    "reply_id": null,
+    "reply_error": "自分へのコメントを付けられませんでした：Threadsからエラー: Application does not have permission for this action"
   }
 }
