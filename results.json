@@ -1031,7 +1031,12 @@
     "reply_error": null
   },
   "post_muqqq3arf434b6": {
-    "status": "posting",
-    "at": "2026-10-04T23:10:00.320Z"
+    "status": "posted",
+    "at": "2026-10-04T23:10:39.238Z",
+    "posted_at": "2026-10-04T23:10:39.238Z",
+    "threads_id": "17989658079116635",
+    "permalink": "https://www.threads.com/@kimura100en/post/DeFyC-Un0ga",
+    "reply_id": null,
+    "reply_error": null
   }
 }
