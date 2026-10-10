@@ -3155,7 +3155,12 @@
     "reply_error": null
   },
   "post_muqrxl6xee88a4": {
-    "status": "posting",
-    "at": "2026-10-10T11:55:00.201Z"
+    "status": "posted",
+    "at": "2026-10-10T11:56:13.402Z",
+    "posted_at": "2026-10-10T11:56:13.402Z",
+    "threads_id": "18144442126581753",
+    "permalink": "https://www.threads.com/@kimura100en/post/DeUBkSJFoWy",
+    "reply_id": "18105028601632868",
+    "reply_error": null
   }
 }
