@@ -3200,7 +3200,12 @@
     "reply_error": null
   },
   "post_mv2xg7ca8b215a": {
-    "status": "posting",
-    "at": "2026-10-10T23:50:00.326Z"
+    "status": "posted",
+    "at": "2026-10-10T23:50:41.409Z",
+    "posted_at": "2026-10-10T23:50:41.409Z",
+    "threads_id": "17950115565057102",
+    "permalink": "https://www.threads.com/@kimura100en/post/DeVTZNikZvP",
+    "reply_id": null,
+    "reply_error": null
   }
 }
