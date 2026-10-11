@@ -3380,7 +3380,12 @@
     "reply_error": null
   },
   "post_mv2xfk9ne7e365": {
-    "status": "posting",
-    "at": "2026-10-11T06:56:00.198Z"
+    "status": "posted",
+    "at": "2026-10-11T06:57:14.534Z",
+    "posted_at": "2026-10-11T06:57:14.534Z",
+    "threads_id": "18098795633086946",
+    "permalink": "https://www.threads.com/@100apokakutoku/post/DeWEJPflhTi",
+    "reply_id": "18092433404659718",
+    "reply_error": null
   }
 }
