@@ -3992,7 +3992,12 @@
     "reply_error": null
   },
   "post_mv58jl5ec1ff6e": {
-    "status": "posting",
-    "at": "2026-10-13T09:46:00.219Z"
+    "status": "posted",
+    "at": "2026-10-13T09:47:15.197Z",
+    "posted_at": "2026-10-13T09:47:15.197Z",
+    "threads_id": "18346016677265909",
+    "permalink": "https://www.threads.com/@kimura100en/post/DebhMOtlsyl",
+    "reply_id": "18017494643956298",
+    "reply_error": null
   }
 }
