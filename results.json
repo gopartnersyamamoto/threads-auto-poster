@@ -5090,7 +5090,12 @@
     "reply_error": null
   },
   "post_mv9j2cspf06005": {
-    "status": "posting",
-    "at": "2026-10-16T10:26:00.182Z"
+    "status": "posted",
+    "at": "2026-10-16T10:26:38.383Z",
+    "posted_at": "2026-10-16T10:26:38.383Z",
+    "threads_id": "18106373710982614",
+    "permalink": "https://www.threads.com/@kimura100en/post/DejUJveHO2A",
+    "reply_id": null,
+    "reply_error": null
   }
 }
