@@ -5270,7 +5270,12 @@
     "reply_error": null
   },
   "post_mvayeze61f11e9": {
-    "status": "posting",
-    "at": "2026-10-17T03:24:00.209Z"
+    "status": "posted",
+    "at": "2026-10-17T03:24:35.317Z",
+    "posted_at": "2026-10-17T03:24:35.317Z",
+    "threads_id": "18152262604532582",
+    "permalink": "https://www.threads.com/@kimura100en/post/DelIpwDnBut",
+    "reply_id": null,
+    "reply_error": null
   }
 }
