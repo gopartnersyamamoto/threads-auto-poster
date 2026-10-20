@@ -6440,7 +6440,12 @@
     "reply_error": null
   },
   "post_mvf8st64fcbcc8": {
-    "status": "posting",
-    "at": "2026-10-20T06:56:00.183Z"
+    "status": "posted",
+    "at": "2026-10-20T06:57:12.783Z",
+    "posted_at": "2026-10-20T06:57:12.783Z",
+    "threads_id": "18084611531512115",
+    "permalink": "https://www.threads.com/@100apokakutoku/post/DetPTJKHN7p",
+    "reply_id": "17973953031160583",
+    "reply_error": null
   }
 }
