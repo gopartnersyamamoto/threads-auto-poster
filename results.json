@@ -6431,7 +6431,12 @@
     "reply_error": null
   },
   "post_mvf8txt3c50be5": {
-    "status": "posting",
-    "at": "2026-10-20T06:18:00.225Z"
+    "status": "posted",
+    "at": "2026-10-20T06:18:36.803Z",
+    "posted_at": "2026-10-20T06:18:36.803Z",
+    "threads_id": "17952546456297870",
+    "permalink": "https://www.threads.com/@kimura100en/post/DetK804nGyZ",
+    "reply_id": null,
+    "reply_error": null
   }
 }
