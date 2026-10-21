@@ -6701,7 +6701,12 @@
     "reply_error": null
   },
   "post_mvgoe9qdba663e": {
-    "status": "posting",
-    "at": "2026-10-21T02:45:12.201Z"
+    "status": "posted",
+    "at": "2026-10-21T02:46:26.880Z",
+    "posted_at": "2026-10-21T02:46:26.880Z",
+    "threads_id": "18039475697895240",
+    "permalink": "https://www.threads.com/@kimura100en/post/DevXZG_APSH",
+    "reply_id": "18108285437251469",
+    "reply_error": null
   }
 }
