@@ -9140,7 +9140,12 @@
     "reply_error": null
   },
   "post_mvs3yra5695fee": {
-    "status": "posting",
-    "at": "2026-10-29T11:11:00.314Z"
+    "status": "posted",
+    "at": "2026-10-29T11:12:14.407Z",
+    "posted_at": "2026-10-29T11:12:14.407Z",
+    "threads_id": "18094956392240886",
+    "permalink": "https://www.threads.com/@100apokakutoku/post/DfE3o0IFsaY",
+    "reply_id": "17912781774557249",
+    "reply_error": null
   }
 }
