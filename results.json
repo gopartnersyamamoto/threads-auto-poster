@@ -9707,7 +9707,12 @@
     "reply_error": null
   },
   "post_mvwdxz5t48a93a": {
-    "status": "posting",
-    "at": "2026-11-01T07:04:00.355Z"
+    "status": "posted",
+    "at": "2026-11-01T07:05:12.418Z",
+    "posted_at": "2026-11-01T07:05:12.418Z",
+    "threads_id": "17987155242079910",
+    "permalink": "https://www.threads.com/@100apokakutoku/post/DfMJwXYlOP0",
+    "reply_id": "18129373270850543",
+    "reply_error": null
   }
 }
