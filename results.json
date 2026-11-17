@@ -12747,5 +12747,9 @@
     "permalink": null,
     "reply_id": null,
     "reply_error": "自分へのコメントを付けられませんでした：Threadsからエラー: Error validating access token: You cannot access the app till you log in to www.threads.com and follow the instructions given."
+  },
+  "post_mwj96ah015d1cf": {
+    "status": "posting",
+    "at": "2026-11-17T08:27:00.244Z"
   }
 }
