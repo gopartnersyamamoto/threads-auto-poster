@@ -12931,7 +12931,12 @@
     "error": "Threadsからエラー: Error validating access token: You cannot access the app till you log in to www.threads.com and follow the instructions given."
   },
   "post_mwm47t5g0c234f": {
-    "status": "posting",
-    "at": "2026-11-19T03:25:00.557Z"
+    "status": "posted",
+    "at": "2026-11-19T03:25:37.751Z",
+    "posted_at": "2026-11-19T03:25:37.751Z",
+    "threads_id": "18158534692522487",
+    "permalink": "https://www.threads.com/@kimura100en/post/Df6HAF5oMPS",
+    "reply_id": null,
+    "reply_error": null
   }
 }
