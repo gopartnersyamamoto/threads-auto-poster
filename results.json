@@ -13405,5 +13405,9 @@
     "status": "failed",
     "at": "2026-11-22T23:06:01.683Z",
     "error": "Threadsからエラー: Error validating access token: You cannot access the app till you log in to www.threads.com and follow the instructions given."
+  },
+  "post_mwrtvdow678c37": {
+    "status": "posting",
+    "at": "2026-11-22T23:08:00.253Z"
   }
 }
