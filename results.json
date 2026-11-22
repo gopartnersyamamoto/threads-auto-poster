@@ -13425,7 +13425,8 @@
     "reply_error": null
   },
   "post_mwrtnc9q37d36e": {
-    "status": "posting",
-    "at": "2026-11-22T23:57:00.252Z"
+    "status": "failed",
+    "at": "2026-11-22T23:57:01.871Z",
+    "error": "Threadsからエラー: Error validating access token: You cannot access the app till you log in to www.threads.com and follow the instructions given."
   }
 }
