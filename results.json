@@ -14382,7 +14382,8 @@
     "error": "Threadsからエラー: Error validating access token: You cannot access the app till you log in to www.threads.com and follow the instructions given."
   },
   "post_mww4gbpfc76d84": {
-    "status": "posting",
-    "at": "2026-11-26T06:12:00.273Z"
+    "status": "failed",
+    "at": "2026-11-26T06:12:02.626Z",
+    "error": "Threadsからエラー: Error validating access token: You cannot access the app till you log in to www.threads.com and follow the instructions given."
   }
 }
