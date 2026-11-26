@@ -14326,7 +14326,12 @@
     "reply_error": null
   },
   "post_mww475t5ed042a": {
-    "status": "posting",
-    "at": "2026-11-26T03:21:00.347Z"
+    "status": "posted",
+    "at": "2026-11-26T03:21:39.205Z",
+    "posted_at": "2026-11-26T03:21:39.205Z",
+    "threads_id": "18183491914439367",
+    "permalink": "https://www.threads.com/@kimura100en/post/DgMIG-elT6O",
+    "reply_id": null,
+    "reply_error": null
   }
 }
